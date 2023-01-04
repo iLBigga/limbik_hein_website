@@ -3,13 +3,8 @@ import './App.css';
 import './style.css';
 
 //Pages
-// import {Biography, Works, ComingSoon} from './pages/pages.js';
-import Biography from './pages/biography.js';
-import Works from './pages/works.js';
-import ComingSoon from './pages/coming-soon.js';
+import {Biography, Works, ComingSoon} from './pages/pages';
 
-//Components
-// import BioSection from './components/biosection.js';
 
 function App() {
   return (
@@ -29,15 +24,12 @@ function App() {
           <Link to="/shop">SHOP</Link>
         </span>
       </header>
-      {/* <BioSection
-        title="BIOGRAPHY"
-        text="This is a short paragraph of text about me."
-      /> */}
     </div>
     <Routes>
       <Route path="/" element={ <Biography />}/>
       <Route path="/works" element={ <Works />} />
       <Route path="/contact" element={ <ComingSoon />} />
+      <Route path="/shop" element={ <ComingSoon />} />
     </Routes>
     </>
   );
