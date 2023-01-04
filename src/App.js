@@ -10,7 +10,7 @@ function App() {
   return (
     <>
     <div className="App">
-      <header className="App-header">
+      <header className="App-header container mx-auto">
         <Link class="App-header-logo" to="/">LIMBIK HEIN</Link>
         <Link class="App-header-section" to="/works">WORKS</Link>
         <Link class="App-header-section" to="/contact">CONTACT</Link>
