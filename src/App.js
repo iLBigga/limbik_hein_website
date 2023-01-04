@@ -11,18 +11,10 @@ function App() {
     <>
     <div className="App">
       <header className="App-header">
-        <span class="App-header-logo" >
-          <Link to="/">LIMBIK HEIN</Link>
-        </span>
-        <span className="App-header-section" href="/works">
-          <Link to="/works">WORKS</Link>
-        </span>
-        <span className="App-header-section" href="/contacts">
-          <Link to="/contact">CONTACT</Link>
-        </span>
-        <span className="App-header-section" href="/shop">
-          <Link to="/shop">SHOP</Link>
-        </span>
+        <Link class="App-header-logo" to="/">LIMBIK HEIN</Link>
+        <Link class="App-header-section" to="/works">WORKS</Link>
+        <Link class="App-header-section" to="/contact">CONTACT</Link>
+        <Link class="App-header-section" to="/shop">SHOP</Link>
       </header>
     </div>
     <Routes>

@@ -2,7 +2,7 @@
 
 export default function BioSection(props) {
   return (
-    <div className="App-home-section">
+    <div className="App-home-section ml-10">
       <h1>{props.title}</h1>
       <p style={{ fontSize: '20px', marginBottom: '5px' }}>{props.text}</p>
     </div>
