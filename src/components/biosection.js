@@ -16,13 +16,8 @@ export default function BioSection(props) {
               <img className="object-none block px-2" src="https://picsum.photos/150/150"alt=""/>
             </figure>
           </div>
-<<<<<<< HEAD
           <div className="col-span-2 md:col-span-6 pr-2">
             <p  style={{ fontSize: '18px', marginBottom: '5px' }}>{props.text}</p>
-=======
-          <div className="col-span-1 md:col-span-6 pr-2">
-            <p  style={{ fontSize: '16px', marginBottom: '5px' }}>{props.text}</p>
->>>>>>> e4d6f28d7de52de2a742f18adc1ec65b6f4936c3
           </div>
         </div>
       </div>
