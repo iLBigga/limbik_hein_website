@@ -1,6 +1,7 @@
 
 import { WorksComponent } from '../components/components'
 import { BioSection } from '../components/components'
+import { imageList } from '../work-list'
 export default function Biography() {
   return (
     <div className='container mx-auto'>
@@ -19,8 +20,7 @@ export default function Biography() {
         minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit 
         quibusdam sed amet tempora. Sit laborum ab, eius fugit doloribus tenetur"
       /> 
-      <WorksComponent></WorksComponent>
+      <WorksComponent title="LATEST WORKS" works={imageList}></WorksComponent>
     </div>
   );
 }
-  

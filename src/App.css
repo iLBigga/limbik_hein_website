@@ -15,7 +15,8 @@
  
 .App-header-logo { 
   font-size: 25px; 
-  text-decoration: none; 
+  text-decoration: none;
+  padding-top: 3px; 
 } 
  
 .App-header-section { 
@@ -29,3 +30,11 @@
   margin-left: 20px; 
 }
 
+footer {
+  position: fixed;
+  background-color: white;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 8px;
+}

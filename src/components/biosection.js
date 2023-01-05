@@ -4,7 +4,7 @@ export default function BioSection(props) {
   return (
     <section className="pt-24">
       <div className="App-home-section container mx-auto">
-        <div  className="flex justify-center md:grid gap-5 md:gap-10 grid-cols-3 md:grid-cols-12">
+        <div  className="flex justify-center md:grid gap-5 md:gap-5 grid-cols-3 md:grid-cols-12">
           <div className="col-span-1 md:col-span-2"></div>
           <div className="col-span-2 md:col-span-3 pb-5">
             <h1 className="text-xl">{props.title}</h1>
@@ -17,7 +17,8 @@ export default function BioSection(props) {
             </figure>
           </div>
           <div className="col-span-2 md:col-span-6 pr-2 px-2">
-            <p  style={{ fontSize: '18px', marginBottom: '5px' }}>{props.text}</p>
+            {/* <p style={{ fontSize: '18px', marginBottom: '5px' }}>{props.text}</p> */}
+            <p style={{ marginBottom: '5px' }}>{props.text}</p>
           </div>
         </div>
       </div>
