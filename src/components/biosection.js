@@ -17,7 +17,7 @@ export default function BioSection(props) {
             </figure>
           </div>
           <div className="col-span-1 md:col-span-6 pr-2">
-            <p  style={{ fontSize: '18px', marginBottom: '5px' }}>{props.text}</p>
+            <p  style={{ fontSize: '16px', marginBottom: '5px' }}>{props.text}</p>
           </div>
         </div>
       </div>
@@ -25,16 +25,3 @@ export default function BioSection(props) {
   );
 }
  
-
-// export default class BioSection extends React.Component {
-//   render() {
-//     return (
-//       <div className="App-home-section">
-//         <h1>{this.props.title}</h1>
-//         <p style={{ fontSize: '20px', marginBottom: '5px' }}>
-//           {this.props.text}
-//         </p>
-//       </div>
-//     );
-//   }
-// }
