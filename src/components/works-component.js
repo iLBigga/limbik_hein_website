@@ -4,15 +4,15 @@ export default function WorksComponent(props) {
   return (
     <section className="pt-10">
       <div className="App-home-section container mx-auto">
-        <div className="grid grid-cols-2 md:grid-cols-12">
+        <div className="flex justify-center md:grid grid-cols-3 gap-5 md:grid-cols-12">
           <div className="col-span-1 md:col-span-2"></div>
           <div className="col-span-1 md:col-span-6">
             <h1 className="text-xl pb-5">WORKS</h1>
           </div>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-12">
+        <div className="flex px-2 md:grid grid-cols-3 md:gap-5 md:grid-cols-12">
           <div className="col-span-1 md:col-span-2"></div>
-          <div className="col-span-1 md:col-span-6 pr-2">
+          <div className="col-span-2 md:col-span-6">
             {/* TODO: RENDERE DINAMICO UNA VOLTA CHE SI HANNO LE IMMAGINI  */}
             <WorkComponent imageSrc="https://picsum.photos/id/123/1024/1024" title="Titolo" date="2023/01/05" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum 
