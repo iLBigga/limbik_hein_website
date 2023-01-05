@@ -4,38 +4,29 @@
 } 
  
 .App-header { 
-  position: sticky; 
   top: 0; 
   background-color: #ffffff; 
   min-height: 50px; 
   margin-right: 20px; 
   margin-left: 20px; 
-  display: flex; 
-  align-items: center; 
-  justify-content: flex-start;  /* change this */ 
   font-size: 18px; 
   color: black; 
 } 
  
 .App-header-logo { 
-  display: inline-block; 
   margin-right: 2em; 
-  justify-content: flex-start; 
   font-size: 25px; 
   text-decoration: none; 
 } 
  
 .App-header-section { 
-  display: inline-block; 
   margin-left: 1em; 
   color: black; 
   text-decoration: none; 
 } 
  
 .App-header-sections { 
-  display: flex; 
   align-items: center; 
-  justify-content: flex-end;   
   margin-right: 1em; 
   margin-left: 20px; 
 }
