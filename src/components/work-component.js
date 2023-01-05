@@ -1,17 +1,13 @@
 
 export default function WorkComponent(props) {
   return (
-    <section className="pt-10">
+    <section className="pb-12">
       <div className="App-home-section container mx-auto">
-        <div className="grid grid-cols-2 md:grid-cols-12">
-          <div className="col-span-1 md:col-span-2">
-            <figure>
-              <img className="object-none block px-2" src="https://picsum.photos/1024/1024"alt=""/>
-            </figure>
+          <div className="flex justify-center ">
+            <img className="pb-2" src={props.imageSrc} alt=""/>
           </div>
-        </div>
         <div className="grid grid-cols-2 md:grid-cols-12">
-          <div className="col-span-1 md:col-span-12 px-2">
+          <div className="col-span-2 md:col-span-12 ">
             <div className="flex justify-between">
               <span className="">{props.title}</span>
               <span className="">{props.date}</span>
