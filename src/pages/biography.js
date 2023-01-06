@@ -1,8 +1,21 @@
+import axios from "axios";
 
 import { WorksComponent } from '../components/components'
 import { BioSectionComponent } from '../components/components'
+
 import { imageList } from '../work-list'
+
 export default function Biography() {
+
+  // Return the list of the last 4 works created
+  // sostituisci localhost con il tuo indirizzo del server o host
+  axios.get('localhost:8080/api/works/4')
+  .then((res)=> {
+    console.log(res)
+  }).catch((err)=> {
+    console.log(err)
+  });
+
   return (
     <main className='container mx-auto'>
       <BioSectionComponent
