@@ -1,9 +1,13 @@
-import BioSection from './biosection'
+import BioSectionComponent from './biosection-component'
 import WorkComponent from './work-component'
 import WorksComponent from './works-component'
+import HeaderComponent from './header-component';
+import FooterComponent from "./footer-component";
 
 export {
-  BioSection,
+  BioSectionComponent,
   WorkComponent,
-  WorksComponent
+  WorksComponent,
+  HeaderComponent,
+  FooterComponent
 }

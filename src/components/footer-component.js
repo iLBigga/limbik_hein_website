@@ -1,4 +1,4 @@
-const Footer = () => {
+export default function FooterComponent() {
   const year = new Date().getFullYear();
 
   return (
@@ -15,4 +15,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+ 

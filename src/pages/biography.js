@@ -1,11 +1,11 @@
 
 import { WorksComponent } from '../components/components'
-import { BioSection } from '../components/components'
+import { BioSectionComponent } from '../components/components'
 import { imageList } from '../work-list'
 export default function Biography() {
   return (
     <main className='container mx-auto'>
-      <BioSection
+      <BioSectionComponent
         title="BIOGRAPHY"
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
         molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum

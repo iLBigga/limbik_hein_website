@@ -1,6 +1,6 @@
 
 
-export default function BioSection(props) {
+export default function BioSectionComponent(props) {
   return (
     <section className="pt-24">
       <div className="App-home-section container mx-auto">

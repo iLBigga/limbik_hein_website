@@ -8,5 +8,5 @@ export {
   Biography,
   Works,
   ComingSoon,
-  Contact
+  Contact,
 }
