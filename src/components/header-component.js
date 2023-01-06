@@ -31,7 +31,7 @@ export default function HeaderComponent() {
         <Link className="App-header-logo px-2" to="/">LIMBIK HEIN</Link>
       </div>
       <div className='flex items-center'>
-        <Menu as="div" className="relative inline-block text-left lg:hidden px-2">
+        <Menu as="div" className="relative inline-block text-left sm:hidden px-2">
           <div>
             <Menu.Button onClick={sideMenu} className="inline-flex w-full justify-center rounded-md border border-gray-300 bg-white px-4 py-2 font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-1 focus:ring-offset-neutral-300">
               <i className="fa-solid fa-bars"></i>
@@ -39,11 +39,11 @@ export default function HeaderComponent() {
           </div>
         </Menu>
       </div>
-      <div className="items-center justify-center md:flex hidden gap-8">
+      <div className="items-center justify-center sm:flex hidden gap-8">
         <Link className="App-header-section p_br" to="/works">WORKS</Link>
         <Link className="App-header-section p_br" to="/contact">CONTACT</Link>
         <Link className="App-header-section p_br" to="/shop">SHOP</Link>
-        <a href="fooBar" className="App-header-section"><i className="fa-brands fa-instagram align-top"></i></a>
+        <a href="fooBar" className="App-header-section"><i className="fa-brands fa-instagram"></i></a>
       </div>
     </header>
   );
