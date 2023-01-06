@@ -17,7 +17,6 @@ export default function BioSectionComponent(props) {
             </figure>
           </div>
           <div className="col-span-2 md:col-span-6 pr-2 px-2">
-            {/* <p style={{ fontSize: '18px', marginBottom: '5px' }}>{props.text}</p> */}
             <p style={{ marginBottom: '5px' }}>{props.text}</p>
           </div>
         </div>
