@@ -39,11 +39,11 @@ export default function HeaderComponent() {
           </div>
         </Menu>
       </div>
-      <div className="items-center md:flex hidden gap-8">
+      <div className="items-center justify-center md:flex hidden gap-8">
         <Link className="App-header-section p_br" to="/works">WORKS</Link>
         <Link className="App-header-section p_br" to="/contact">CONTACT</Link>
         <Link className="App-header-section p_br" to="/shop">SHOP</Link>
-        <a href="fooBar" className="App-header-section"><i className="fa-brands fa-instagram pt-1"></i></a>
+        <a href="fooBar" className="App-header-section"><i className="fa-brands fa-instagram align-top"></i></a>
       </div>
     </header>
   );
