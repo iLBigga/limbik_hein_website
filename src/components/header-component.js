@@ -23,7 +23,7 @@ export default function HeaderComponent() {
             <li><Link className="App-header-section" to="/works">WORKS</Link></li>
             <li><Link className="App-header-section" to="/contact">CONTACT</Link></li>
             <li><Link className="App-header-section" to="/shop">SHOP</Link></li>
-            <li><a href="fooBar"><i className="fa-brands fa-instagram p_br"></i></a></li>
+            <li><a href="fooBar"><i className="fa-brands fa-instagram"></i></a></li>
           </ul>
         </div>
       </div>
@@ -43,7 +43,7 @@ export default function HeaderComponent() {
         <Link className="App-header-section p_br" to="/works">WORKS</Link>
         <Link className="App-header-section p_br" to="/contact">CONTACT</Link>
         <Link className="App-header-section p_br" to="/shop">SHOP</Link>
-        <a href="fooBar" className="App-header-section"><i className="p_br fa-brands fa-instagram pt-1"></i></a>
+        <a href="fooBar" className="App-header-section"><i className="fa-brands fa-instagram pt-1"></i></a>
       </div>
     </header>
   );
