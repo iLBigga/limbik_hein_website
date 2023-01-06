@@ -24,7 +24,7 @@ function App() {
     <>
       <div className="App text-xs md:text-sm lg:text-base">
         <header className="App-header container mx-auto flex justify-between w-full fixed top-0 right-0 left-0">
-          <div onClick={sideMenu} id='menu' className='fixed flex justify-center items-center transition-all duration-500 w-full left-full -right-0 ease-out top-0 bottom-0 bg-neutral-200'>
+          <div onClick={sideMenu} id='menu' className='fixed flex justify-center items-center transition-all duration-500 w-full left-full -right-0 ease-out top-0 bottom-0 bg-white'>
             <div  className='text-center'>
               <ul className='flex flex-col gap-5'>
                 <li><Link className="App-header-logo p_br" to="/">LIMBIK HEIN</Link></li>

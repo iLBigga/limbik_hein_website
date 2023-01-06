@@ -41,7 +41,7 @@
   display: block;
   margin-top: 5px;
   background-color: black;
-  transition: 2s;
+  transition: 500ms;
 }
 
 .p_br:hover::after{
