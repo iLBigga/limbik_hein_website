@@ -2,7 +2,7 @@ const Footer = () => {
   const year = new Date().getFullYear();
 
   return (
-  <footer className="flex justify-between align-middle">
+  <footer className="flex leading-3 justify-between align-middle">
     <span className="text-[10px] ">{`Copyright © ${year}`}</span>
     <div className="text-[8px] flex align-middle">
       <span className="pr-5">website by:</span>
