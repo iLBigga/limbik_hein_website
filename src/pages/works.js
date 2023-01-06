@@ -3,11 +3,11 @@ import { imageList } from "../work-list";
 
 export default function Works() {
     return (
-      <section className="pl-0.5 pt-14">
+      <main className="pl-0.5 pt-14">
         <div className='container mx-auto'>
           <WorksComponent works={imageList} title="WORKS"></WorksComponent>
         </div>
-      </section>
+      </main>
     );
   }
   

@@ -4,7 +4,7 @@ import { BioSection } from '../components/components'
 import { imageList } from '../work-list'
 export default function Biography() {
   return (
-    <div className='container mx-auto'>
+    <main className='container mx-auto'>
       <BioSection
         title="BIOGRAPHY"
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
@@ -21,6 +21,6 @@ export default function Biography() {
         quibusdam sed amet tempora. Sit laborum ab, eius fugit doloribus tenetur"
       /> 
       <WorksComponent title="LATEST WORKS" works={imageList}></WorksComponent>
-    </div>
+    </main>
   );
 }
