@@ -9,9 +9,10 @@ export default function Biography() {
 
   // Return the list of the last 4 works created
   // sostituisci localhost con il tuo indirizzo del server o host
-  axios.get('localhost:8080/api/works/4')
+  axios.get('localhost:8000/lastworks')
   .then((res)=> {
     console.log(res)
+    imageList = res.data
   }).catch((err)=> {
     console.log(err)
   });

@@ -6,9 +6,10 @@ export default function Works() {
 
   // Return the list of all the works created
   // sostituisci localhost con il tuo indirizzo del server o host
-  axios.get('localhost:8080/api/works')
+  axios.get('localhost:8000/works')
   .then((res)=> {
     console.log(res)
+    imageList = res.data
   }).catch((err)=> {
     console.log(err)
   });
