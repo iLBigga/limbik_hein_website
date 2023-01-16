@@ -1,4 +1,4 @@
-
+import myImage from 'D:/TESTI/BRERA/TESI/CODICE/sito/limbik_hein_website/src/limbik_face.jpg';
 
 export default function BioSectionComponent(props) {
   return (
@@ -13,7 +13,7 @@ export default function BioSectionComponent(props) {
         <div className="flex flex-col justify-center md:grid md:gap-10 md:grid-cols-12">
           <div className="col-span-1 md:col-span-2">
             <figure className="pb-5 md:pb-0">
-              <img className="mx-auto px-2" src="https://picsum.photos/150/150"alt=""/>
+              <img className="mx-auto px-2" src={myImage} alt=""/>
             </figure>
           </div>
           <div className="col-span-2 md:col-span-6 pr-2 px-2">
@@ -24,4 +24,3 @@ export default function BioSectionComponent(props) {
     </section>
   );
 }
- 

@@ -4,7 +4,9 @@ export default function WorkComponent(props) {
     <section className="pb-12">
       <div className="App-home-section container mx-auto">
         <div className="flex justify-center ">
-          <img className="pb-2" src={props.imageSrc} alt=""/>
+          <div className="pb-4">
+            <img src={`data:image/jpeg;base64,${props.imageSrc}`} />
+          </div>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-12">
           <div className="col-span-2 md:col-span-12 ">
@@ -22,4 +24,3 @@ export default function WorkComponent(props) {
     </section>
   );
 }
- 

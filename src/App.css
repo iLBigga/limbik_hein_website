@@ -57,3 +57,7 @@ footer {
   right: 0;
   padding: 8px;
 }
+
+.wrap-text {
+  white-space: pre-wrap;
+}
