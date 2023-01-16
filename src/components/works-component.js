@@ -1,4 +1,6 @@
 import WorkComponent from './work-component';
+import moment from 'moment';
+
 
 export default function WorksComponent(props) {
   
@@ -14,12 +16,12 @@ export default function WorksComponent(props) {
         <div className="flex px-2 md:grid grid-cols-3 md:gap-5 md:grid-cols-12">
           <div className="col-span-1 md:col-span-2"></div>
           <div className="col-span-2 md:col-span-6">
-            {props.works.map(workList => (
+            {props.works.map((workList, index) => (
               <WorkComponent 
-                key={workList.id} 
-                imageSrc={workList.imageSrc} 
+                key={index} 
+                imageSrc={workList.image_url} 
                 title={workList.title} 
-                date={workList.date} 
+                date={moment(workList.date).format('L')} 
                 description={workList.description}>
               </WorkComponent>
             ))}
